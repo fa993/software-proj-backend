@@ -1,0 +1,380 @@
+{
+  "devices": [
+    {
+      "type": "check",
+      "label": "Living Room",
+      "value": 0,
+      "id": 20,
+      "subSensors": [
+        {
+          "parentId": 20,
+          "id": 21,
+          "label": "TV",
+          "type": "check",
+          "value": 1
+        },
+        {
+          "parentId": 20,
+          "id": 22,
+          "label": "TV",
+          "type": "range",
+          "icon": "volume-off",
+          "value": "18"
+        },
+        {
+          "parentId": 20,
+          "id": 23,
+          "label": "TV",
+          "type": "numeric",
+          "icon": "hash",
+          "value": "114"
+        },
+        {
+          "parentId": 20,
+          "id": 24,
+          "label": "TV",
+          "type": "text",
+          "value": "20 minutes ago",
+          "icon": "people"
+        },
+        {
+          "parentId": 20,
+          "id": 25,
+          "label": "TV",
+          "type": "click",
+          "value": "Simple Click"
+        },
+        {
+          "parentId": 20,
+          "id": 26,
+          "label": "Second Lamp",
+          "type": "check",
+          "value": 1
+        },
+        {
+          "parentId": 20,
+          "id": 27,
+          "label": "AC",
+          "type": "text",
+          "value": "27 °C",
+          "icon": "thermometer"
+        },
+        {
+          "parentId": 20,
+          "id": 28,
+          "label": "AC",
+          "type": "check",
+          "value": 0
+        },
+        {
+          "parentId": 20,
+          "id": 29,
+          "label": "AC",
+          "type": "option",
+          "value": 2,
+          "text": "Auto, Cool, Heat",
+          "icon": "gear"
+        },
+        {
+          "parentId": 20,
+          "id": 30,
+          "label": "AC",
+          "type": "fancy",
+          "value": 2,
+          "icon": "thermometer"
+        },
+        {
+          "parentId": 20,
+          "id": 31,
+          "label": "First Lamp",
+          "type": "check",
+          "value": 0
+        },
+        {
+          "parentId": 20,
+          "id": 32,
+          "label": "TV Lamp",
+          "type": "check",
+          "value": 1
+        },
+        {
+          "parentId": 20,
+          "id": 33,
+          "label": "Main Lamp",
+          "type": "range",
+          "value": "6",
+          "icon": "brightness-high"
+        },
+        {
+          "parentId": 20,
+          "id": 34,
+          "label": "Temperature",
+          "type": "text",
+          "value": "27 °C",
+          "icon": "thermometer"
+        },
+        {
+          "parentId": 20,
+          "id": 35,
+          "label": "Main Sensors",
+          "value": "CO Detected",
+          "icon": "exclamation-circle",
+          "type": "danger"
+        }
+      ]
+    },
+    {
+      "parentId": 20,
+      "id": 21,
+      "label": "TV",
+      "type": "check",
+      "value": 1
+    },
+    {
+      "parentId": 20,
+      "id": 22,
+      "label": "TV",
+      "type": "range",
+      "icon": "volume-off",
+      "value": "18"
+    },
+    {
+      "parentId": 20,
+      "id": 23,
+      "label": "TV",
+      "type": "numeric",
+      "icon": "hash",
+      "value": "114"
+    },
+    {
+      "parentId": 20,
+      "id": 24,
+      "label": "TV",
+      "type": "text",
+      "value": "20 minutes ago",
+      "icon": "people"
+    },
+    {
+      "parentId": 20,
+      "id": 25,
+      "label": "TV",
+      "type": "click",
+      "value": "Simple Click"
+    },
+    {
+      "parentId": 20,
+      "id": 26,
+      "label": "Second Lamp",
+      "type": "check",
+      "value": 1
+    },
+    {
+      "parentId": 20,
+      "id": 27,
+      "label": "AC",
+      "type": "text",
+      "value": "27 °C",
+      "icon": "thermometer"
+    },
+    {
+      "parentId": 20,
+      "id": 28,
+      "label": "AC",
+      "type": "check",
+      "value": 0
+    },
+    {
+      "parentId": 20,
+      "id": 29,
+      "label": "AC",
+      "type": "option",
+      "value": 2,
+      "text": "Auto, Cool, Heat",
+      "icon": "gear"
+    },
+    {
+      "parentId": 20,
+      "id": 30,
+      "label": "AC",
+      "type": "fancy",
+      "value": 2,
+      "icon": "thermometer"
+    },
+    {
+      "parentId": 20,
+      "id": 31,
+      "label": "First Lamp",
+      "type": "check",
+      "value": 0
+    },
+    {
+      "parentId": 20,
+      "id": 32,
+      "label": "TV Lamp",
+      "type": "check",
+      "value": 1
+    },
+    {
+      "parentId": 20,
+      "id": 33,
+      "label": "Main Lamp",
+      "type": "range",
+      "value": "6",
+      "icon": "brightness-high"
+    },
+    {
+      "parentId": 20,
+      "id": 34,
+      "label": "Temperature",
+      "type": "text",
+      "value": "27 °C",
+      "icon": "thermometer"
+    },
+    {
+      "parentId": 20,
+      "id": 35,
+      "label": "Main Sensors",
+      "value": "CO Detected",
+      "icon": "exclamation-circle",
+      "type": "danger"
+    },
+    {
+      "parentId": 40,
+      "id": 41,
+      "label": "Main curtain",
+      "type": "text",
+      "icon": "sliders2-vertical",
+      "value": "30"
+    },
+    {
+      "parentId": 40,
+      "id": 42,
+      "label": "Main curtain",
+      "type": "option",
+      "text": "Open, ⏸︎, Close",
+      "icon": "sliders2-vertical",
+      "value": 0
+    },
+    {
+      "parentId": 40,
+      "id": 43,
+      "label": "Main curtain",
+      "type": "option",
+      "text": "Open, ⏸︎, Close",
+      "icon": "sliders2-vertical",
+      "value": 2
+    },
+    {
+      "parentId": 40,
+      "id": 44,
+      "label": "Main curtain",
+      "type": "text",
+      "value": "30 %",
+      "icon": "sliders2-vertical"
+    },
+    {
+      "parentId": 40,
+      "id": 45,
+      "label": "Thermostat",
+      "type": "fancy",
+      "icon": "thermometer",
+      "value": 38
+    },
+    {
+      "parentId": 40,
+      "id": 46,
+      "label": "Water Leak",
+      "value": "Yes",
+      "icon": "droplet",
+      "type": "danger"
+    },
+    {
+      "parentId": 40,
+      "id": 47,
+      "label": "Smoke Sensor",
+      "value": "Active",
+      "icon": "cloud-haze2",
+      "type": "danger"
+    },
+    {
+      "parentId": 40,
+      "id": 48,
+      "label": "Light Sensor",
+      "value": "Active",
+      "icon": "brightness-high",
+      "type": "success"
+    },
+    {
+      "label": "Parental Room",
+      "id": 40,
+      "subSensors": [
+        {
+          "parentId": 40,
+          "id": 41,
+          "label": "Main curtain",
+          "type": "text",
+          "icon": "sliders2-vertical",
+          "value": "30"
+        },
+        {
+          "parentId": 40,
+          "id": 42,
+          "label": "Main curtain",
+          "type": "option",
+          "text": "Open, ⏸︎, Close",
+          "icon": "sliders2-vertical",
+          "value": 0
+        },
+        {
+          "parentId": 40,
+          "id": 43,
+          "label": "Main curtain",
+          "type": "option",
+          "text": "Open, ⏸︎, Close",
+          "icon": "sliders2-vertical",
+          "value": 2
+        },
+        {
+          "parentId": 40,
+          "id": 44,
+          "label": "Main curtain",
+          "type": "text",
+          "value": "30 %",
+          "icon": "sliders2-vertical"
+        },
+        {
+          "parentId": 40,
+          "id": 45,
+          "label": "Thermostat",
+          "type": "fancy",
+          "icon": "thermometer",
+          "value": 38
+        },
+        {
+          "parentId": 40,
+          "id": 46,
+          "label": "Water Leak",
+          "value": "Yes",
+          "icon": "droplet",
+          "type": "danger"
+        },
+        {
+          "parentId": 40,
+          "id": 47,
+          "label": "Smoke Sensor",
+          "value": "Active",
+          "icon": "cloud-haze2",
+          "type": "danger"
+        },
+        {
+          "parentId": 40,
+          "id": 48,
+          "label": "Light Sensor",
+          "value": "Active",
+          "icon": "brightness-high",
+          "type": "success"
+        }
+      ]
+    }
+  ]
+}
