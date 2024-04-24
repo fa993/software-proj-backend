@@ -19,7 +19,7 @@
           "label": "TV",
           "type": "range",
           "icon": "volume-off",
-          "value": "18"
+          "value": "11"
         },
         {
           "parentId": 20,
@@ -27,7 +27,7 @@
           "label": "TV",
           "type": "numeric",
           "icon": "hash",
-          "value": "114"
+          "value": "94"
         },
         {
           "parentId": 20,
@@ -71,7 +71,7 @@
           "id": 29,
           "label": "AC",
           "type": "option",
-          "value": 2,
+          "value": 0,
           "text": "Auto, Cool, Heat",
           "icon": "gear"
         },
@@ -80,7 +80,7 @@
           "id": 30,
           "label": "AC",
           "type": "fancy",
-          "value": 2,
+          "value": 5,
           "icon": "thermometer"
         },
         {
@@ -136,7 +136,7 @@
       "label": "TV",
       "type": "range",
       "icon": "volume-off",
-      "value": "18"
+      "value": "11"
     },
     {
       "parentId": 20,
@@ -144,7 +144,7 @@
       "label": "TV",
       "type": "numeric",
       "icon": "hash",
-      "value": "114"
+      "value": "94"
     },
     {
       "parentId": 20,
@@ -166,7 +166,7 @@
       "id": 26,
       "label": "Second Lamp",
       "type": "check",
-      "value": 1
+      "value": 0
     },
     {
       "parentId": 20,
@@ -188,7 +188,7 @@
       "id": 29,
       "label": "AC",
       "type": "option",
-      "value": 2,
+      "value": 0,
       "text": "Auto, Cool, Heat",
       "icon": "gear"
     },
@@ -197,7 +197,7 @@
       "id": 30,
       "label": "AC",
       "type": "fancy",
-      "value": 2,
+      "value": 5,
       "icon": "thermometer"
     },
     {
@@ -262,7 +262,7 @@
       "type": "option",
       "text": "Open, ⏸︎, Close",
       "icon": "sliders2-vertical",
-      "value": 2
+      "value": 0
     },
     {
       "parentId": 40,
@@ -332,7 +332,7 @@
           "type": "option",
           "text": "Open, ⏸︎, Close",
           "icon": "sliders2-vertical",
-          "value": 2
+          "value": 0
         },
         {
           "parentId": 40,

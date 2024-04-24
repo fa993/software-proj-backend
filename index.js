@@ -42,7 +42,7 @@ app.post('/device/:deviceId', async (req, res) => {
 });
 
 app.put('/device/:deviceId', async (req, res) => {
-	const e = db.data.devices.find((e) => e.id == req.params.deviceId);
+	var e = db.data.devices.find((e) => e.id == req.params.deviceId);
 	if (!e) {
 		e = db.data.devices.push({ id: db.data.devices.length });
 		await db.write();
